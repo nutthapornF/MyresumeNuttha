@@ -1,272 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
     <style>
-        body{
-            background-image: url(./landing.jpg) ;
-            opacity:0.7;
-            height: auto;
-            background-position: right;
-            background-repeat: no-repeat;
-            background-size: cover;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .wrapper{
-            margin: 20px;;
-            width: 900px;
-            height: 1100px;
-            background-color: white;
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .headerWrap{
-            border: 4px solid black;
-            text-align: center;
-            padding: 10px 100px;
-        }
-        .content-wrapper{
-            display:flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .left{
-            width: 250px;
-            padding: 10px 20px;
-           
-          
-        }
-        .right{
-            width: 60%;
-            padding: 10px 20px;
-          
-        
-        }
-       
-        h3{
-            font-size: 19px;
-            line-height: 10px ;
-            padding:5px;
-            border-top: 0.5px solid black;
-        }
-        .profile{
-            border:none;
-            padding: 10px 0px 0px 0px;
-
-        }
-        h4{
-            font-size: 15px;
-            line-height: 0px ;
-            padding:5px;
-        }
-        a{
-            text-decoration: none;
-            color:black;
-        }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body{
+      body {
+        background-image: url(./landing.jpg);
+        opacity: 0.7;
+        height: auto;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        justify-items: center;
-        width: 100vw;
-
-    }
-
-    .wrapper{
-        margin: 10px;
-        width: 90%;
-        height: 100vh;
-        
-        
-    }
-    .headerWrap{
-        border: 2px solid black;
-        text-align: center;
-        padding: 3px 20px;
-       
-    }
-    h1{ font-size: 16px;}
-    .left{
-        width: 30%;
-        padding: 5px 10px;
-   
-    }
-    .right{
-        width: 60%;
-        padding: 5px 10px;
-    }
-    p{
-        
-        font-size: 10px;
-    }
-  
-    h3{
-        font-size: 8px;
-        line-height: 5px ;
-        padding:5px;
-        border-top: 0.5px solid black;
-    }
-    .profile{
-        border:none;
-        padding: 5px 0px 0px 0px;
-
-    }
-    h4{
-        font-size: 8px;
-        line-height: 0px ;
-        padding:5px;
-    }
-    a ,li {
-        font-size: 10px;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up)*/
-@media only screen and (max-width: 440px) {
-    body{
+      }
+      .wrapper {
+        margin: 20px;
+        width: 900px;
+        height: 1200px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        justify-items: center;
-        width: 100vw;
-
-    }
-
-    .wrapper{
-        width: 90%;
-        height: 100vh;
-    
-    }
-    .headerWrap{
-        border: 2px solid black;
+      }
+      .headerWrap {
+        border: 4px solid black;
         text-align: center;
-        padding: 3px 15px;
-       
-    }
-    h1{ font-size: 15px;}
-    .left{
-        width: 30%;
-        padding: 5px ;
-   
-    }
-    .right{
+        padding: 10px 100px;
+      }
+      .content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+      }
+      .left {
+        width: 250px;
+        padding: 10px 20px;
+      }
+      .right {
         width: 60%;
+        padding: 10px 20px;
+      }
+
+      h3 {
+        font-size: 19px;
+        line-height: 10px;
         padding: 5px;
-    }
-    p{
-        
-        font-size: 7px;
-    }
-  
-    h3{
-        font-size: 6px;
-        line-height: 5px ;
-        padding:5px;
         border-top: 0.5px solid black;
-    }
-    .profile{
-        border:none;
-        padding: 5px 0px 0px 0px;
+      }
+      .profile {
+        border: none;
+        padding: 10px 0px 0px 0px;
+      }
+      h4 {
+        font-size: 15px;
+        line-height: 0px;
+        padding: 5px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
 
-    }
-    h4{
-        font-size: 8px;
-        line-height: 0px ;
-        padding:5px;
-    }
-    a ,li {
-        font-size: 7px;
-    }
-} 
+      /* Extra small devices (phones, 600px and down) */
+      @media only screen and (max-width: 600px) {
+        body {
+          align-items: center;
+          justify-items: center;
+          width: 100vw;
+        }
 
+        .wrapper {
+          margin: 10px;
+          width: 90%;
+          height: 100vh;
+        }
+        .headerWrap {
+          border: 2px solid black;
+          text-align: center;
+          padding: 3px 20px;
+        }
+        h1 {
+          font-size: 16px;
+        }
+        .left {
+          width: 30%;
+          padding: 5px 10px;
+        }
+        .right {
+          width: 60%;
+          padding: 5px 10px;
+        }
+        p {
+          font-size: 10px;
+        }
+
+        h3 {
+          font-size: 8px;
+          line-height: 5px;
+          padding: 5px;
+          border-top: 0.5px solid black;
+        }
+        .profile {
+          border: none;
+          padding: 5px 0px 0px 0px;
+        }
+        h4 {
+          font-size: 8px;
+          line-height: 0px;
+          padding: 5px;
+        }
+        a,
+        li {
+          font-size: 10px;
+        }
+      }
+
+      /* Small devices (portrait tablets and large phones, 600px and up)*/
+      @media only screen and (max-width: 440px) {
+        body {
+          align-items: center;
+          justify-items: center;
+          width: 100vw;
+        }
+
+        .wrapper {
+          width: 90%;
+          height: 100vh;
+        }
+        .headerWrap {
+          border: 2px solid black;
+          text-align: center;
+          padding: 3px 15px;
+        }
+        h1 {
+          font-size: 15px;
+        }
+        .left {
+          width: 30%;
+          padding: 5px;
+        }
+        .right {
+          width: 60%;
+          padding: 5px;
+        }
+        p {
+          font-size: 7px;
+        }
+
+        h3 {
+          font-size: 6px;
+          line-height: 5px;
+          padding: 5px;
+          border-top: 0.5px solid black;
+        }
+        .profile {
+          border: none;
+          padding: 5px 0px 0px 0px;
+        }
+        h4 {
+          font-size: 8px;
+          line-height: 0px;
+          padding: 5px;
+        }
+        a,
+        li {
+          font-size: 7px;
+        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="headerWrap">
-            <h1>Nutthaporn</h1>
-            <h1>Fueangsukon</h1>
-            <p>Software Developer</p>
+      <div class="headerWrap">
+        <h1>Nutthaporn</h1>
+        <h1>Fueangsukon</h1>
+        <p>Software Developer</p>
+      </div>
+
+      <div class="content-wrapper">
+        <div class="left">
+          <div>
+            <h3>DETAILS</h3>
+            <h4>Address</h4>
+            <p>
+              55-57 Sukhumvit <br />
+              allay 5 Bangkok, <br />10110 Thailand
+            </p>
+            <!-- <br /> -->
+            <h4>Phone</h4>
+            <p>0867623217</p>
+            <h4>E-mail</h4>
+            <p>Nuttha.fu@outlook.com</p>
+          </div>
+          <div>
+            <h3>LINKS</h3>
+            <a href="https://www.linkedin.com/in/nutthaporn-fueangsukon/"
+              >Linkedin</a
+            >
+            <br />
+            <a href="https://github.com/nutthapornF"> github </a>
+          </div>
+          <div>
+            <h3>SKILLS</h3>
+            <ul>
+              <li>HTML/CSS</li>
+              <li>JavaScrilit</li>
+              <li>React</li>
+              <li>Git</li>
+              <li>Nodejs</li>
+              <li>MongoDB</li>
+              <li>SQL</li>
+              <li>Exliress.js</li>
+              <li>Software Testing</li>
+            </ul>
+          </div>
+          <div>
+            <h3>LANGUAGES</h3>
+            <p>English : proficiency</p>
+            <p>Thai : Native</p>
+          </div>
         </div>
-       
-        <div class="content-wrapper" >
-            <div class="left">
-                <div>
-                    <h3>DETAILS</h3>
-                    <h4>Address</h4>
-                    <p>55-57 Sukhumvit <br/> allay 5 Bangkok, <br/>10110 Thailand </p>
-                    <br/>
-                    <h4>Phone</h4>
-                    <p>0867623217</p>
-                    <h4>E-mail</h4>
-                    <p>Nuttha.fu@outlook.com</p>  
-                </div>
-               <div>
-                <h3>LINKS</h3>
-                <a href="https://www.linkedin.com/in/nutthaporn-fueangsukon/">Linkedin</a> <br/>
-                <a href="https://github.com/nutthapornF" > github </a>
-               </div>
-               <div>
-                <h3>SKILLS</h3>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>JavaScrilit</li>
-                    <li>React</li>
-                    <li>Git</li>
-                    <li>Nodejs</li>
-                    <li>MongoDB</li>
-                    <li>SQL</li>
-                    <li>Exliress.js</li>
-                    <li>Software Testing</li>
+        <div class="right">
+          <h3 class="profile">PROFILES</h3>
+          <p>
+            A professional personal trainer turns software developer with high
+            intention to apply broad knowledge in developing web application.
+          </p>
+          <p>
+            Fast learner and willing to learn new skills as a full stack
+            developer for further improvement.
+          </p>
+          <p>
+            I have accomplished a personal trainer certification during my 2nd
+            years of university, Diet & Nutrition coach, and Coding bootcamp
+            during my last semester of university.
+          </p>
+          <br />
+          <h3>EMPLOYMENT HISTORY</h3>
+          <h4>Frontend Developer, Ultimate Technology</h4>
+          <p>Oct 2022- Aug 2023</p>
+          <ul>
+            <li>Implement responsive design</li>
+            <li>Implement and maintain front-end web application</li>
+            <li>Utilized Ants design and tailwind for frontend page</li>
+            <li>Creating connection for HTTp request using Websockets.</li>
+            <li>
+              working with GIT repository and maintaining version control using
+              Git
+            </li>
+          </ul>
+          <h4>Personal trainer, Fitin25 Co. Ltd.</h4>
+          <p>Jan 2019 - Feb 2022</p>
+          <ul>
+            <li>Evaluating costumers physical need</li>
+            <li>Lead both individual and group of 2-3 training session</li>
+            <li>
+              Advise costumers on how to change nutritional and lifestyle habits
+              as needed
+            </li>
+            <li>Trained over 50 clients, and over 1000 sessions</li>
+          </ul>
 
-                </ul>
-               
-               </div>
-               <div>
-                <h3>LANGUAGES</h3>
-                <p>English : proficiency</p>
-                <p>Thai : Native</p>
-               </div>
-                
-
-            </div>
-            <div class="right">
-                <h3 class="profile" >PROFILES</h3>
-                <p>A professional personal trainer turns software developer with high intention to apply broad knowledge in developing web application.</p>
-                <p>Fast learner and willing to learn new skills as a full stack developer for further improvement.</p>
-                  <p>  I have accomplished a personal trainer certification during my 2nd years of university, Diet & Nutrition coach, and Coding bootcamp during my last semester of university.</p>
-                  <br/>
-                <h3>EMPLOYMENT HISTORY</h3>
-                <h4>Personal trainer, Fitin25 Co. Ltd.</h4>
-                <p>Jan 2019-Present</p>
-                <ul>
-                    <li>Evaluating costumers physical need</li>
-                    <li>Lead both individual and group of 2-3 training session</li>
-                    <li>Advise costumers on how to change nutritional and lifestyle
-                        habits as needed</li>
-                    <li>Trained over 50 clients, and over 1000 sessions</li>
-                </ul>
-                <h3>EDUCATION</h3>
-                <h4>Coding Bootcamp Full-Stack Software Development TechUp</h4>
-                <p>Feb 2022-Jun 2022</p>
-                <p>HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, PostgreSQL, Software Testing, Git Final Project</p>
-                <p>Final Project : Get That Job is a job-searching platform for anyone who looking for employment or looking to recruit someone. We have a variety of features to support all those and help your online recruitment and hiring process go more easily.
-                </p>
-                <h4>International business, Ramkhamhaeng University</h4>
-                <p>Dec 2016-May 2021</p>
-
-            </div>  
+          <h3>EDUCATION</h3>
+          <h4>Coding Bootcamp Full-Stack Software Development TechUp</h4>
+          <p>Feb 2022-Jun 2022</p>
+          <p>
+            HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, PostgreSQL,
+            Software Testing, Git Final Project
+          </p>
+          <p>
+            Final Project : Get That Job is a job-searching platform for anyone
+            who looking for employment or looking to recruit someone. We have a
+            variety of features to support all those and help your online
+            recruitment and hiring process go more easily.
+          </p>
+          <h4>International business, Ramkhamhaeng University</h4>
+          <p>Dec 2016-May 2021</p>
         </div>
-        
-
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
